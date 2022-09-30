@@ -1,0 +1,56 @@
+body{
+    display: flex;
+    height: 100vh;
+}
+.block{
+    background-color: black;
+    width: 400px;
+    height: 250px;
+    margin: auto;
+}
+.flag{
+    border: 3px solid gray;
+    background-color: white;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    position: absolute;
+    top: 38%;
+    left: 15%;
+}
+.circle{
+    background-color: red;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin: auto;
+}
+.diagram{
+    border: 2px solid gray;
+    background-color: white;
+    width: 300px;
+    height: 260px;
+    position: absolute;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    top: 30%;
+    left: 67%;
+}
+.one,.two,.three,.four{
+    background-color: lightblue;
+    width: 40px;
+}
+.one{
+    height: 250px;
+}
+.two{
+    height: 174px;
+}
+.three{
+    height: 92px;
+}
+.four{
+    height: 221px;
+}
